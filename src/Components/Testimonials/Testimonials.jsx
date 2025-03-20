@@ -7,13 +7,13 @@ const testimonials = [
     name: "John Doe",
     review: "Amazing experience! The food was delicious and the service was outstanding.",
     rating: 5,
-    image: "/images/customer1.jpg"
+    image: "/images/customer1-min.jpg"
   },
   {
     name: "Jane Smith",
     review: "A wonderful place with great ambiance. Will definitely visit again!",
     rating: 4,
-    image: "/images/customer2.jpg"
+    image: "/images/customer2-min.jpg"
   },
   {
     name: "Michael Johnson",

@@ -2,12 +2,12 @@ import React from "react";
 import "./Menu.css";
 
 
-import dish1 from "../../Images/dish1.jpg";
-import dish2 from "../../Images/dish2.jpg";
-import dish3 from "../../Images/dish3.jpg";
-import dish4 from "../../Images/dish4.jpg";
-import dish5 from "../../Images/dish5.jpg";
-import dish6 from "../../Images/dish6.jpg";
+import dish1 from "/images/dish1-min.jpg";
+import dish2 from "/images/dish2-min.jpg";
+import dish3 from "/images/dish3-min.jpg";
+import dish4 from "/images/dish4-min.jpg";
+import dish5 from "/images/dish5-min.jpg";
+import dish6 from "/images/dish6-min.jpg";
 
 
 const Menu = () => {
