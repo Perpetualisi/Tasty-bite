@@ -55,7 +55,7 @@
     .gallery-container {
         grid-template-columns: repeat(auto-fit, minmax(1fr, 200px)); 
         gap: 10px;
-        margin-left: -15px;
+        margin-left: -17px;
     }
 
     .gallery-item {
