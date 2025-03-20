@@ -24,8 +24,8 @@ const About = () => {
         
       
         <div className="about-box">
-          <video className="about-video" autoPlay loop muted>
-            <source src="images/Philosophy new.mp4" type="video/mp4" />
+          <video className="about-video" autoPlay loop muted playsInline>
+            <source src="/images/Philosophy-new.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <h3>Our History</h3>
@@ -37,8 +37,8 @@ const About = () => {
 
       
         <div className="about-box">
-          <video className="about-video" autoPlay loop muted>
-            <source src="images/Chef-new.mp4" type="video/mp4" />
+          <video className="about-video" autoPlay loop muted playsInline>
+            <source src="/images/Chef-new.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <h3>Meet Our Chef</h3>
@@ -50,8 +50,8 @@ const About = () => {
 
         
         <div className="about-box">
-          <video className="about-video" autoPlay loop muted>
-            <source src="images/History new.mp4" type="video/mp4" />
+          <video className="about-video" autoPlay loop muted playsInline>
+            <source src="/images/History-new.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <h3>Our Philosophy</h3>
