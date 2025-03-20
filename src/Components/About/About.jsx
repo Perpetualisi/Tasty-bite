@@ -38,7 +38,7 @@ const About = () => {
       
         <div className="about-box">
           <video className="about-video" autoPlay loop muted>
-            <source src="/images/Chef new.mp4" type="video/mp4" />
+            <source src="/images/Chef-new.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <h3>Meet Our Chef</h3>

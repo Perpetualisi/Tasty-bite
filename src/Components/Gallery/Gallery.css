@@ -19,6 +19,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 15px;
     padding: 10px;
+    margin-left: -5px;
 }
 
 
@@ -54,6 +55,7 @@
     .gallery-container {
         grid-template-columns: repeat(auto-fit, minmax(1fr, 200px)); 
         gap: 10px;
+        margin-left: -15px;
     }
 
     .gallery-item {
