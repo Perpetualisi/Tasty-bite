@@ -41,7 +41,7 @@ body, html {
 .hero-content h1 {
   font-size: 36px;
   margin-bottom: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: lobster;
   font-weight: 400;
   ;
 }
@@ -145,13 +145,13 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
   }
 
   .hero-content h1 {
-    font-size: 2.3rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
+    font-size: 24px;
+    font-family: lobster;
+    font-weight: 300;
   }
 
   .hero-content p {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .btn {
