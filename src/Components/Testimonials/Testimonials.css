@@ -1,0 +1,93 @@
+
+.testimonials {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    background: #1e1d1d;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.testimonial-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.testimonial img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 10px;
+    
+  }
+    .testimonial p {
+        font-size: 1rem;
+        color: white; 
+        margin: 15px 0;
+      }
+      .testimonials h2 {
+        color: white; 
+      }
+      
+      
+  
+  
+
+.fade-in {
+    animation: fadeEffect 0.8s ease-in-out;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+}
+
+
+.stars {
+    color: #ffcc00;
+    font-size: 1.2rem;
+}
+
+.star-empty {
+    color: #ccc;
+}
+
+
+.testimonial-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.testimonial-buttons button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.testimonial-buttons button:hover {
+    background: #cc5500;
+}

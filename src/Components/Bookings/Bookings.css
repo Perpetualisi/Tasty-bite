@@ -1,0 +1,94 @@
+
+.bookings {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #222;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .bookings h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffcc00;
+  }
+  
+  
+  .bookings label {
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+  
+  .bookings input,
+  .bookings select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .bookings button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .bookings button:hover {
+    background: #cc5500;
+  }
+  .booking-form input,
+.booking-form select {
+  width: 100%;  
+  max-width: 400px;  
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.booking-form h2 {
+  color: yellow;
+  margin-bottom: 20px;
+}
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .bookings {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .bookings h2 {
+      font-size: 20px;
+    }
+  
+    .bookings input,
+    .bookings select {
+      font-size: 14px;
+    }
+  
+    .bookings button {
+      font-size: 14px;
+    }
+  }
+  
