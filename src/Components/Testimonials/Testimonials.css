@@ -1,7 +1,7 @@
 
 .testimonials {
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 30px;
     text-align: center;
@@ -26,12 +26,13 @@
     
   }
     .testimonial p {
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: white; 
         margin: 15px 0;
       }
       .testimonials h2 {
         color: white; 
+        font-size: 1.5rem;
       }
       
       
@@ -53,8 +54,8 @@
 
 
 .testimonial-image {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-bottom: 10px;
     border: 2px solid #ddd;
@@ -82,12 +83,38 @@
     background: #ff6600;
     color: white;
     border: none;
-    padding: 8px 12px;
+    padding: 6px 10px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s ease;
+    font-size: 0.9rem;
 }
 
 .testimonial-buttons button:hover {
     background: #cc5500;
+}
+/* Mobile-specific styles */
+@media (max-width: 480px) {
+    .testimonials {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .testimonial img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .testimonial p {
+        font-size: 0.85rem;
+    }
+
+    .testimonials h2 {
+        font-size: 1.3rem;
+    }
+
+    .testimonial-buttons button {
+        font-size: 0.8rem;
+        padding: 5px 8px;
+    }
 }
