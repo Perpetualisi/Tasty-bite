@@ -25,7 +25,7 @@ const About = () => {
       
         <div className="about-box">
           <video className="about-video" autoPlay loop muted playsInline>
-            <source src="/images/Philosophy-new.mp4" type="video/mp4" />
+            <source src="https://res.cloudinary.com/dlxbur3on/video/upload/v1742549303/Philosophy-new_ftorvc.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <h3>Our History</h3>
@@ -38,7 +38,7 @@ const About = () => {
       
         <div className="about-box">
           <video className="about-video" autoPlay loop muted playsInline>
-            <source src="/images/Chef-new.mp4" type="video/mp4" />
+            <source src="https://res.cloudinary.com/dlxbur3on/video/upload/v1742549390/Chef-new_qw63ba.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <h3>Meet Our Chef</h3>
@@ -51,7 +51,7 @@ const About = () => {
         
         <div className="about-box">
           <video className="about-video" autoPlay loop muted playsInline>
-            <source src="/images/History-new.mp4" type="video/mp4" />
+            <source src="https://res.cloudinary.com/dlxbur3on/video/upload/v1742549328/History-new_dbwykx.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <h3>Our Philosophy</h3>
