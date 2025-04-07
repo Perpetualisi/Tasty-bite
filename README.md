@@ -1,6 +1,6 @@
 
 
-**TastyBite** is a modern, responsive, and visually appealing food landing page designed to showcase mouth-watering dishes and attract customers to a food business or restaurant. Built with **React** and **Vite**, this project is optimized for performance and smooth user interaction.
+**TastyBite** is a modern, responsive, and visually appealing food Website designed to showcase mouth-watering dishes and attract customers to a food business or restaurant. Built with **React** and **Vite**, this project is optimized for performance and smooth user interaction.
 
 ## 🔗 Live Demo
 
