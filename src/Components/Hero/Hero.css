@@ -1,6 +1,6 @@
 
 .hero {
-  background: url("/images/bg-min.jpg") center/cover no-repeat;
+  background: url("/images/bg.jpg") center/cover no-repeat;
   width: 100vw;
   height: 100vh;
   display: flex;

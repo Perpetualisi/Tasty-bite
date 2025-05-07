@@ -2,12 +2,12 @@ import React from "react";
 import "./Gallery.css";
 
 const images = [
-  "/images/Gallery1-min.jpg",
-  "/images/Gallery2-min.jpg",
-  "/images/Gallery3-min.jpg",
-  "/images/Gallery4-min.jpg",
-  "/images/Gallery5-min.jpg",
-  "/images/Galley6-min.jpg"
+  "/images/Gallery1.jpg",
+  "/images/Gallery2.jpg",
+  "/images/Gallery3.jpg",
+  "/images/Gallery4.jpg",
+  "/images/Gallery5.jpg",
+  "/images/Gallery6.jpg"
 ];
 
 const Gallery = () => {
